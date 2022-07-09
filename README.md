@@ -17,3 +17,4 @@
 ## Current Features ## 
 - Custom Status
   - You can change the name, the start-date and your discord status by changing the values of the variables in lines `11 - 13`
+  - [Suggest a feature!](https://docs.google.com/forms/d/e/1FAIpQLSeJ4c3O-Yt0zQK8wJm68F241oEblFPy9wqgLzow7oO1wYZfuA/viewform?usp=sf_link)
