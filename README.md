@@ -1,5 +1,7 @@
 # MarqSelfbot #
 
+[If you like it, you can buy me a coffee! :)](https://www.buymeacoffee.com/immarq)
+
 ## Requirements ##
 - Python version 3.10.4 or higher
 - PIP
