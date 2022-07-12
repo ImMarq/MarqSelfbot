@@ -1,0 +1,18 @@
+{
+    "token": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "custom_status": {
+        "start": [
+            2011,
+            11,
+            18
+        ],
+        "name": "Minecraft",
+        "possible_statuses": [
+            "online",
+            "idle",
+            "dnd",
+            "invisible"
+        ],
+        "status": "online"
+    }
+}
