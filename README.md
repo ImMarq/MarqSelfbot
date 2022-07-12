@@ -2,6 +2,8 @@
 
 [If you like it, you can buy me a coffee! :)](https://www.buymeacoffee.com/immarq)
 
+Use the status_only.pyw file if you dont need any other feature!  
+
 ## Requirements ##
 - Python version 3.10.4 or higher
 - PIP
