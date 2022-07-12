@@ -11,9 +11,9 @@
 1. Run `pip install -r requirements.txt` in the same folder as `requirements.txt`
 2. Windows Key + R
 3. Type shell:startup, press Enter
-4. Move main.pyw into that folder
+4. Move main.pyw (or status_only.pyw) into that folder
 5. Replace `ABCDEFGHIJKLMNOPQRSTUVWXYZ` in the `settings.json` with your token ([How to get your token](https://www.androidauthority.com/get-discord-token-3149920/))
-6. Try out the script by executing `python main.pyw` or `py main.pyw` in the command prompt
+6. Try out the script by executing `python main.pyw` (or status_only.pyw) or `py main.pyw` (or status_only.pyw) in the command prompt
 7. Restart your PC
 
 ## Current Features ## 
