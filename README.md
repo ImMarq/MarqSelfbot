@@ -12,7 +12,7 @@
 2. Windows Key + R
 3. Type shell:startup, press Enter
 4. Move main.pyw into that folder
-5. Replace `ABCDEFGHIJKLMNOPQRSTUVWXYZ` in the 8. line of the `main.pyw` with your token ([How to get your token](https://www.androidauthority.com/get-discord-token-3149920/))
+5. Replace `ABCDEFGHIJKLMNOPQRSTUVWXYZ` in the `settings.json` with your token ([How to get your token](https://www.androidauthority.com/get-discord-token-3149920/))
 6. Try out the script by executing `python main.pyw` or `py main.pyw` in the command prompt
 7. Restart your PC
 
