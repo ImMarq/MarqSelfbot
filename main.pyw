@@ -18,13 +18,19 @@ default_settings = {
 }
 
 
+#create documents folder in the user dir if it doesn't exist
+if not os.path.exists(os.path.join(os.path.expanduser("~"), "Documents")):
+    os.makedirs(os.path.join(os.path.expanduser("~"), "Documents"))
+if not os.path.exists(os.path.join(os.path.expanduser("~"), "Documents", "MarqSelfbot")):
+    os.makedirs(os.path.join(os.path.expanduser("~"), "Documents", "MarqSelfbot"))
+directory = os.path.join(os.path.expanduser("~"), "Documents", "MarqSelfbot")
 
+print("Settings.json location: " + directory)
 
-
-if not os.path.isfile("settings.json"):
-    with open("settings.json", "w") as f:
+if not os.path.isfile(os.path.join(directory, "settings.json")):
+    with open(os.path.join(directory, "settings.json"), "w") as f:
         json.dump(default_settings, f, indent=4)
-        print("Created settings.json, please edit it and restart the bot.")
+        print(f"Created settings.json in {directory}, please edit it and restart the bot.")
         exit()
 else:
     with open("settings.json", "r") as f:
